@@ -9,11 +9,12 @@ Usage
 Please see stress tool documentation: http://linux.die.net/man/1/stress
 
 General usage:
+
     docker run -d -e "ARGS=STRESS ARGUMENTS" docker-sress 
 
-Example to use up 3 cpus:
+Example to stress 3 cpus:
 
-    dock run -d -e "ARGS=-c 3" docker-sress
+    docker run -d -e "ARGS=-c 3" docker-sress
     
 
 
