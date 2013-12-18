@@ -10,11 +10,11 @@ Please see stress tool documentation: http://linux.die.net/man/1/stress
 
 General usage:
 
-    docker run -d sress STRESS_ARGUMENTS
+    docker run -d stress STRESS_ARGUMENTS
 
 Example to stress 3 cpus:
 
-    docker run -d sress -c 3
+    docker run -d stress -c 3
 
 More complex example:
 
